@@ -22,4 +22,5 @@ install json %{buildroot}/%{_prefix}/bin
 
 %files
 %defattr(-,root,root,-)
+%license LICENSE
 %{_prefix}/bin/*
